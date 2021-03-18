@@ -17,8 +17,20 @@ body{
 }
 
 ul{
+  position: relative;
+  margin-bottom: 12px;
   list-style-type: none;
   padding: 0px;
   display: flex;
   justify-content: left;
+}
+
+a{
+  text-decoration: none;
+  background: #FFF;
+  padding: 15px;
+}
+
+a:hover{
+  backgruond: red;
 }
